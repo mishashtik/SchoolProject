@@ -1,19 +1,46 @@
 <!DOCTYPE html>
-
 <head>
-
+    <link rel="stylesheet" href="./Styles/Styles.css">
+    <link rel="import" href="Kitchens.html">
 <meta charset="UTF-8">
 
 <title>Поваренная книга</title>
 </head>
 
+<header>
+    <ul class ="navigation" id = "head-navigation">
+        <li><a href="main.html">Глявная</a></li>
+        <li><a href="Kitchens.html">Кухни</a></li>
+        <li><a href="FridgeSettings.html">А что есть у вас в холодильнике?</a></li>
+    </ul>
+</header>
+
 <body>
     Этот проект представляет собой сайт, накотором вы сможете подобрать себе любой рецепт из того, что у вас есть в холодильнике
-    <img src="./PicturesForSite/shablon-oblogki-dlya-kulinarnoy-knigi.jpg" height="877" width="620">
-    <ul>
-        <li><a href="main.html"></a>Глявная</li>
-        <li><a href="Kitchens.html"></a>Кухни</li>
-        <li><a href="FridgeSettings.html"></a>А что есть у вас в холодильнике?</li>
+    <img src="./PicturesForSite/kulinarnaya-kniga-for-fone.jpg" height="877" width="620">
+    <form action="#">
+        <fieldset>
+        <legend>Найти рецепт(поместить в самый низ, либо совсем убрать)</legend>
+        <textarea name="products" cols="50" rows="10"></textarea>
+        <input type="submit" value="Давай готовить">
+        </fieldset>
+    </form>
+    <a href="./News.html">Новости</a>
+     
+     Алфавитный указатель кухонь мира
+    <ul class="navigation" id = "sec-navigation">
+        <li><a href="./WorldKitchens/Italy.html">Итальянская</a></li>
+        <li><a href="./WorldKitchens/Mexico.html">Мексиканская</a></li>
+        <li><a href="./WorldKitchens/Russian.html">Русская</a></li>
+        <li><a href ="./WorldKitchens/AllWorld.html">Общая</a></li>
+        
+        <li><a href="">Алфавитный указатель кухонь мира(по нажатию на кнопку открывается указатель)(надо подумать)</a></li>
+    </ul>
+    <ul class="news">
+        <li><a href="">Новости(сделать по центру в виде колонны)</a></li>
+        <li><a href="./News/Htmls/News1.html">Новость 1</a></li>
+        <li><a href="./News/Htmls/News2.html">Новость 2</a></li>
+        <li><a href="./News/Htmls/News3.html">Новость 3</a></li>
     </ul>
 </body>
 
